@@ -14,7 +14,7 @@ Section:NewKeybind("Toggle UI", "Key = RightCtrl", Enum.KeyCode.RightCtrl, funct
     Library:ToggleUI()
 end)
 Section:Newbuttin("Toggle autofire", "...", Enum.KeyCode.F, function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/god86521/base-battles/main/autofire%22))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Allen-86521/base-battles/main/autofire%22))()
     print("Toggled AutoFire")
 end)
 local Tab = Window:NewTab("Credits")
